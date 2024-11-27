@@ -1,0 +1,53 @@
+h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    justify-content: center;
+    font-size:xx-large;
+    background-color: wheat ;
+    color: darkblue;
+    padding: 30px;
+}
+
+p{
+    font-size: larger;
+}
+
+nav{
+    padding: 0%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    background-color: #f7e6e6;
+}
+
+nav a{
+    color: rgb(119, 5, 5);
+    text-align: center;
+    padding: 20px;
+    font-size:x-large;
+    text-decoration: none;
+}
+
+.contactos{
+    background-color: wheat;
+    color: blue;
+    padding: 20px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+}
+
+footer {
+    background-color: rgb(151, 178, 190);
+    color: rgb(219, 49, 49);
+    padding: 20px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+
+.información-contactos{
+    display: inline-flex;
+    justify-content:end;
+    flex-direction:row-reverse;
+    align-items: end;
+}

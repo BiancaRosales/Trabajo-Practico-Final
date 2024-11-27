@@ -1,0 +1,101 @@
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:xx-large;
+    justify-content: center;
+}
+
+h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    justify-content: left;
+    color: rgb(119, 5, 5);
+    justify-content: flex-start;
+    font-size: xx-large;
+}
+
+h3{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: x-large;
+    justify-content: center;
+}
+
+p{
+    font-size: larger;
+}
+
+.container{
+    background-image: url(https://cdn.pixabay.com/photo/2017/02/27/23/34/college-2104580_640.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    color: #ffffff;
+    padding: 20px;
+    letter-spacing: 3px; 
+    text-align: center;
+}
+
+nav{
+    padding: 0%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    background-color: #f7e6e6;
+}
+
+nav a{
+    color: rgb(119, 5, 5);
+    text-align: center;
+    padding: 20px;
+    font-size:x-large;
+    text-decoration: none;
+}
+
+section {
+    background-color: #f7e6e6;
+    color: black;
+    padding: 10px;
+    text-align:justify;
+    flex-direction: row-reverse;
+}
+
+.Introducción{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+}
+
+.frase{
+    padding: 30px;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction:row-reverse;
+}
+
+.reciclaje{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+p{
+    padding: 20px;
+}
+
+footer {
+    background-color: rgb(151, 178, 190);
+    color: rgb(219, 49, 49);
+    padding: 20px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+
+.final{
+    display: inline-flex;
+    justify-content:end;
+    flex-direction:row-reverse;
+    align-items: end;
+}
